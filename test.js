@@ -1,5 +1,5 @@
 const test = require('tape');
-const forEach = require('./index');
+const forEach = require('./readme');
 
 test('it iterates a finite pullable source', (t) => {
   t.plan(12);
@@ -11,7 +11,7 @@ test('it iterates a finite pullable source', (t) => {
   });
 
   function makeSource() {
-    let sent = 0; 
+    let sent = 0;
     let sinkRef;
     return function source(type, data) {
       if (type === 0) {

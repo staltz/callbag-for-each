@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/staltz/callbag-for-each.git"
   },
-  "main": "index.js",
+  "main": "readme.js",
   "scripts": {
     "test": "tape test.js"
   },
