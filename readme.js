@@ -46,4 +46,4 @@ const forEach = operation => source => {
   });
 };
 
-module.exports = forEach;
+export default forEach;
