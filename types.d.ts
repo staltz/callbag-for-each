@@ -1,3 +1,3 @@
 import { Source } from 'callbag'
-declare function forEach<T>(operation: (data: T) => void): (source: Source<T>) => void;
+declare const forEach: (operation: (data: any) => void) => (source: Source<any>) => void;
 export = forEach;
