@@ -1,5 +1,5 @@
 const test = require('tape');
-const forEach = require('./readme');
+const forEach = require('.');
 
 test('it iterates a finite pullable source', (t) => {
   t.plan(12);
